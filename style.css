@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 50px;
+}
+
+.container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+  background-color: grey;
+  transition: background-color 0.3s;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#goBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#result, #feedback {
+  font-size: 20px;
+  margin-top: 20px;
+}
